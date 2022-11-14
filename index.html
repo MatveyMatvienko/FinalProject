@@ -116,5 +116,129 @@
         </div>
     <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon="{&quot;rayId&quot;:&quot;769e39b33fed2d67&quot;,&quot;token&quot;:&quot;d39a6a9d6fdb4c9dbcc7a9b778eb5c94&quot;,&quot;version&quot;:&quot;2022.11.0&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
 
+            const SUPPORT_BASE = "https://support.aternos.org/hc/";
+            const SUPPORT_ARTICLES = {"countdown":360026950972,"uploadworld":360027235751,"connect":360026805072,"size":360035144691,"adblock":360034748092,"email":360039498492,"pending":360041686352,"domains":360044623491,"deprecated":360033339752,"backups":360044837012,"suggest":360052255311,"world-force-upgrade":360029351312,"world-optimize":360055516791,"retention":360030845111,"options":360030513552,"reinstall":360027235851,"resource-packs":5013255309085,"gamemode":360038363032,"unable-to-connect":360030511372,"starting":360027235631,"queue":360026950812,"cheats":360033279492,"cracked":360027235691,"unban":360026950852,"log":360027091471,"invalid-session":360030845231,"datapacks":360044777411,"addons":360042095232,"delete-player":360041630952,"plugins":360026950892,"mods":360027235871,"modpacks":4409967265425,"download-world":360027235711,"world-safe":360026950912,"access":360026950952,"suggest-mods-plugins":360052255311,"suggest-modpacks":360026950872,"ftp":360027235831,"close":360026951012};
+        
+            <div class="alert-container"></div>
+        
+            <a href="/" class="logo">
+                <img src="/panel/img/logo-white.svg" alt="Logo">
+            </a>
+        
+            <div class="go">
+                <div class="login-wrapper">
+    <div class="go-title">Добро пожаловать на Aternos!</div>
+    <div class="create">
+        <a class="create-btn btn btn-main btn-huge btn-block" href="/signup/"><i class="fas fa-user-plus"></i>Регистрация</a>
+    </div>
+    <div class="or">
+        <div class="or-line"></div>
+        <div class="or-or">
+            <span>или</span>
+        </div>
+    </div>
+    <div class="login">
+        <div class="go-sub-title">
+            Вход        </div>
+        <div class="login-error">
 
-</body></html>
+        </div>
+        <div class="login-form">
+            <div class="go-input-group join-right">
+                <div class="go-input-group-icon">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="go-input-group-input">
+                    <input id="user" type="text" placeholder="Имя пользователя">
+                </div>
+            </div>
+            <div class="go-input-group join-both">
+                <div class="go-input-group-icon">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <div class="go-input-group-input">
+                    <input id="password" type="password" placeholder="••••••••">
+                </div>
+            </div>
+            <div class="go-input-group login-twofactor join-both" style="display: none;">
+                <div class="go-input-group-icon">
+                    <i class="fas fa-id-badge"></i>
+                </div>
+                <div class="go-input-group-input">
+                    <input id="twofactor-code" type="text" placeholder="123456" maxlength="6">
+                </div>
+            </div>
+            <div id="login" class="login-button btn btn-main join-left" onclick="login()">
+                <i class="fas fa-lock"></i>Вход            </div>
+        </div>
+        <div class="login-forgot-password">
+            <a href="/lost/">Забыли пароль?</a>
+        </div>
+        <div class="login-social">
+            <div class="social-login-buttons">
+                <a class="btn btn-white google-button" href="/auth/google-login"><img src="/panel/img/google.svg" class="google-logo"> Войти через Google</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script integrity="sha512-DP39uqiUWN1suWtXoXPwg5b2VL4waoKKY8GkcTxyO+yUHYWEpKeMJb1rW2QYy2OV61TrpAPfS4YO9e26N2q0Lg==" src="/assets/panel/js/go-0cfdfdbaa89458dd.js"></script>            </div>
+        
+                <div class="login-wrapper">
+    <div class="go-title">Добро пожаловать на Aternos!</div>
+    <div class="create">
+        <a class="create-btn btn btn-main btn-huge btn-block" href="/signup/"><i class="fas fa-user-plus"></i>Регистрация</a>
+    </div>
+    <div class="or">
+        <div class="or-line"></div>
+        <div class="or-or">
+            <span>или</span>
+        </div>
+    </div>
+    <div class="login">
+        <div class="go-sub-title">
+            Вход        </div>
+        <div class="login-error">
+
+        </div>
+        <div class="login-form">
+            <div class="go-input-group join-right">
+                <div class="go-input-group-icon">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="go-input-group-input">
+                    <input id="user" type="text" placeholder="Имя пользователя">
+                </div>
+            </div>
+            <div class="go-input-group join-both">
+                <div class="go-input-group-icon">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <div class="go-input-group-input">
+                    <input id="password" type="password" placeholder="••••••••">
+                </div>
+            </div>
+            <div class="go-input-group login-twofactor join-both" style="display: none;">
+                <div class="go-input-group-icon">
+                    <i class="fas fa-id-badge"></i>
+                </div>
+                <div class="go-input-group-input">
+                    <input id="twofactor-code" type="text" placeholder="123456" maxlength="6">
+                </div>
+            </div>
+            <div id="login" class="login-button btn btn-main join-left" onclick="login()">
+                <i class="fas fa-lock"></i>Вход            </div>
+        </div>
+        <div class="login-forgot-password">
+            <a href="/lost/">Забыли пароль?</a>
+        </div>
+        <div class="login-social">
+            <div class="social-login-buttons">
+                <a class="btn btn-white google-button" href="/auth/google-login"><img src="/panel/img/google.svg" class="google-logo"> Войти через Google</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script integrity="sha512-DP39uqiUWN1suWtXoXPwg5b2VL4waoKKY8GkcTxyO+yUHYWEpKeMJb1rW2QYy2OV61TrpAPfS4YO9e26N2q0Lg==" src="/assets/panel/js/go-0cfdfdbaa89458dd.js"></script>            
+
+</body>
+</html>
